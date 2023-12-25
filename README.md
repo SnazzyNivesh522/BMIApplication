@@ -1,5 +1,5 @@
 # BMIApplication
-**College Assignment**</br>
+
 ##
 Design and implement a Java application that calculates the Body Mass Index (BMI) of a person. The formula of BMI is dividing a person's weight in kilograms (kg) by the person's height in square meters (m²) (i.e., multiply the height in meters by itself). A BMI below 18.5 is considered underweight, and 25.0 or more is considered overweight.</br>
 
