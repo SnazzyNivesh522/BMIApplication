@@ -1,10 +1,11 @@
 # BMIApplication
 **College Assignment**</br>
+##
 Design and implement a Java application that calculates the Body Mass Index (BMI) of a person. The formula of BMI is dividing a person's weight in kilograms (kg) by the person's height in square meters (m²) (i.e., multiply the height in meters by itself). A BMI below 18.5 is considered underweight, and 25.0 or more is considered overweight.</br>
 The application will accept the height of a person in feet and inches (Imperial system) or in centimeters (Metric system). But it will accept the weight of the person in kg only. The application will determine if the user is underweight, overweight, or has a normal weight based on the person's BMI.</br>
 Design the application using the inheritance hierarchy starting with an abstract class MyBMI, then two derived classes: ImperialUnit and MetricUnit.</br>
-• Assign MyBMI with two private attributes: name of the person and the weight of the person in kg.</br>
-• Assign ImperialUnit with two attributes for the height (feet and inches). For MetricUnit, assign it with only one attribute (the height in centimeters). Use the formula of "1 inch = 2.54 centimeters" to do the conversion between these units.</br>
+- Assign MyBMI with two private attributes: name of the person and the weight of the person in kg.</br>
+- Assign ImperialUnit with two attributes for the height (feet and inches). For MetricUnit, assign it with only one attribute (the height in centimeters). Use the formula of "1 inch = 2.54 centimeters" to do the conversion between these units.</br>
 • For each attribute, there should be an accessor method and a mutator method. In addition, there should be a method to perform an analysis on the calculated BMI value to determine if the person's BMI falls within the normal range. Use abstract methods in your design to ensure that some methods must be overridden in the derived classes</br>
 • Declare a default constructor and a parameterized constructor for each class. All classes except the driver class must also have a toString() method that returns a custom string about the details of an object.</br>
 • Create a driver class named BMIApp with a single array reference of the MyBMI class. Since no user input is needed in the driver, you can write some code statements to store in the array with three objects using the Imperial system and an additional three other objects using the Metric system (a total of six objects). For example,</br>
